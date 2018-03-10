@@ -1,0 +1,27 @@
+{
+  "name": "botty",
+  "version": "1.0.0",
+  "description": "A bot for Slack platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emartinez06/slack-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "slack"
+  ],
+  "author": "E. Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emartinez06/slack-bot/issues"
+  },
+  "homepage": "https://github.com/emartinez06/slack-bot#readme",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "dotenv": "^5.0.1"
+  }
+}
